@@ -1,0 +1,162 @@
+.formulario{
+    display:flex;
+    background-color: rgba(0, 0, 0, 0.89);
+    
+    height: 500px;
+
+    flex-direction: column;
+    gap: 20px;
+    padding: 120px 450px;
+    
+}
+.formulario h1{
+    color: aliceblue;
+}
+.formulario h3{
+    color: rgb(56, 166, 240);
+}
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    margin-top: -185px;
+    margin-left: 450px;
+    background-color: rgb(148, 183, 214);
+    height: 500%;
+    width: 50%;
+    border-radius: 10px;
+    gap: 10px;
+}
+.informacoes strong{
+  
+    margin-top: 40px;
+    font-size: 31px;
+}
+.informacoes label{
+    
+    position: relative;
+   top: 55px;
+    
+}
+.privacidade{
+   
+    margin-top: -12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cadastro{
+    
+    padding: 30px;
+    margin-top: 50px;
+    border: 2px solid #080808;
+    border-radius:12px;
+}
+.senha{
+    padding: 30px;
+        margin-top: 50px;
+        border: 2px solid #ff0000;
+        border-radius: 12px;
+}
+.claro{
+    color: #888888;
+    
+}
+
+
+.informacoes textarea{
+    padding: 100px;
+    margin-top: 50px;
+    border: 2px solid #080808;
+    border-radius: 12px;
+}
+.opção{
+    padding: 30px;
+    margin-top: 50px;
+    border: 2px solid #080808;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+.check{
+display: flex;
+   
+    flex-direction: row;
+margin-top: 40px;
+margin-left: -90px;
+
+}
+.check input{
+    display: flex;
+    flex-direction: row;
+   margin-right: 25px;
+
+    transform: scale(3);
+    margin-left: 103px;
+   
+}
+.data {
+display: flex;
+flex-direction: column;
+margin-top: 50px;
+gap: 50px;
+}
+.data div{
+    display: flex;
+    flex-direction: row;
+    text-align:right;
+   
+}
+.dataevento{
+   width: 100%;
+  padding: 20px;
+        margin-top: 35px;
+        border: 2px solid #080808;
+        border-radius: 12px;
+       margin-left: -32px;
+      margin-right: 40px;
+    font-size: 25px;
+    color: #474444;
+}
+.inicio{
+    width: 30%;
+    margin-top: 35px;
+    border: 2px solid #080808;
+    border-radius: 12px;
+    margin-left: -32px;
+    margin-right: 40px;
+    font-size: 25px;
+    color: #474444;
+}
+.fim{
+width: 30%;
+    margin-top: 35px;
+    border: 2px solid #080808;
+    border-radius: 12px;
+    margin-left: -32px;
+    font-size: 25px;
+   color: #474444;
+}
+.container fieldset{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    background-color: rgb(157, 190, 219);
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    height: 200px;   
+}
+.container button{
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(17, 206, 89);
+  color: aliceblue;
+  font-size: 20px;
+  width: 80%;
+  border-radius: 8px;
+  margin-top: 60px;
+ 
+  padding: 25px;
+}

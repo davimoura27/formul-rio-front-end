@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header class="formulario">
+    <div >
+        <h1>Crie e compartilhe <br> seu evento</h1>
+        <h3>O primeiro passo, é preencher esse <br>formulario de inscrição.</h3>
+    </div>
+    </header>
+    <form class="container">
+        <div class="informacoes">
+            <h1>Informaçoes do evento</h1>
+
+
+            <label for="nome"> Titulo do evento <span class="claro">(minimo 8 caracteres)</span></label>
+            <input class="cadastro" type="text" id="nome" name="nome" min="8" />
+
+            <label for="link"> Link do evento <span class="claro">(comece com https://)</span></label>
+            <input class="cadastro" type="url" id="link" />
+
+            <label for="contatowpp"> Whatsapp <span class="claro">(somente numero)</span></label>
+            <input class="cadastro" type="number" id="contatowpp" />
+
+            <label for="informação"> Informações extras</label>
+            <textarea name="informação" id="informação" rows="4" cols="50"></textarea>
+
+            <label for="categoria"> Categoria </label>
+            <select id="categoria" class="opção">
+                <option value="1">Ao vivo</option>
+                <option value="2">Podcast</option>
+                <option value="3">Mentoria</option>
+            </select>
+
+
+            <div class="privacidade">
+
+                <Strong>Privacidade</Strong>
+
+
+                <label for="email"> E-mail do administrador <span class="claro">(digite um email valido)</span></label>
+                <input class="cadastro" type="email" id="email" />
+
+                <label for="senha"> Senha de acesso para os participantes <span class="claro">(minimo 8
+                        caracteres)</span> </label>
+                <input class="senha" type="password" id="senha" min="8" />
+
+                <div class="check">
+
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox"></label>
+                    Evento privado
+                    </label>
+                </div>
+                <header class="data">
+                    <h1>Dia e hora</h1>
+                    <div>
+                        <legend>Data</legend>
+                        <input class="dataevento" type="date" id="Data" />
+
+
+                        <legend>Das</legend>
+                        <input class="inicio" type="time" />
+
+                        <legend>Até</legend>
+                        <input class="fim" type="time" />
+                    </div>
+                </header>
+            </div>
+            <fieldset>
+                <button type="submit">Salvar evento</button>
+
+            </fieldset>
+
+
+
+
+    </form>
+</body>
+
+</html>
