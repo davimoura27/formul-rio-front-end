@@ -14,15 +14,16 @@
 }
 .formulario h3{
     color: rgb(56, 166, 240);
+    margin-top: 20px;
 }
 .informacoes{
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 50px;
     margin-top: -185px;
     margin-left: 450px;
     background-color: rgb(148, 183, 214);
-    height: 500%;
+   
     width: 50%;
     border-radius: 10px;
     gap: 10px;
